@@ -39,6 +39,7 @@
             android:name=".AboutActivity"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity android:name=".utils.GoToRecovery" />
 
         <service
             android:name=".utils.BackupRestoreIntentService"
